@@ -48,39 +48,39 @@ gap: 2em;
 }
 
 #button-1{
-    background-color: #FE4A6D;
+    background-color: #fe4ad7;
 }
 
 #button-4{
-    background-color: #CC2949;
+    background-color: #f7def5;
 }
 
 #button-7{
-    background-color: #A7223C;
+    background-color: #a77698;
 }
 
 #button-2{
-    background-color: #8FFF94;
+    background-color: #f5b8e2;
 }
 
 #button-5{
-    background-color: #4D9551;
+    background-color: #8d54c2;
 }
 
 #button-8{
-    background-color: #346436;
+    background-color: #9ae9f7;
 }
 
 #button-3{
-    background-color: #06A2E5;
+    background-color: #c69cd1;
 }
 
 #button-6{
-    background-color: #036C99;
+    background-color: #a1dbf3;
 }
 
 #button-9{
-    background-color: #005275;
+    background-color: #453246;
 }
 
 .Beat-name{
@@ -112,7 +112,7 @@ gap: 2em;
 }
 
   .dropdown button{
-      width: 100%;
+     max-width: 100%;
       display: flex;
       align-items: center;
       gap: 0.2em;
@@ -132,7 +132,7 @@ gap: 2em;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #9c42d8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -145,12 +145,23 @@ gap: 2em;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {background-color: #e781d6}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #f1d1e5;
   }
+
+
+
+
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
