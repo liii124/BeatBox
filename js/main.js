@@ -15,9 +15,9 @@ function play_sound1(){
         audio.play();
         
     }else if(mode === 1){
-        var audio = new Audio('../mp3/11.mp3');
-        audio.play();
-        console.log("clicked");
+import sound from '../mp3/11.mp3'
+const audio = new Audio(sound)
+audio.play()
     }
 }
 
